@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F031E92218B90F1FD336D65 /* Pods_BurstChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A7D6374DBCE880ED56B833 /* Pods_BurstChatTests.framework */; };
 		5CB144691DF9D43E00AC0329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB144681DF9D43E00AC0329 /* AppDelegate.swift */; };
 		5CB1446B1DF9D43E00AC0329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB1446A1DF9D43E00AC0329 /* ViewController.swift */; };
 		5CB1446E1DF9D43E00AC0329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1446C1DF9D43E00AC0329 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		5CB144761DF9D43E00AC0329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB144741DF9D43E00AC0329 /* LaunchScreen.storyboard */; };
 		5CB144811DF9D43E00AC0329 /* BurstChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB144801DF9D43E00AC0329 /* BurstChatTests.swift */; };
 		5CB1448C1DF9D43E00AC0329 /* BurstChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB1448B1DF9D43E00AC0329 /* BurstChatUITests.swift */; };
+		5CB1449C1DFAF6D000AC0329 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1449B1DFAF6D000AC0329 /* GoogleService-Info.plist */; };
+		CDE36E400C1AEA199C5C324B /* Pods_BurstChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB4991AD01DBA59863E79D9 /* Pods_BurstChatUITests.framework */; };
+		DF8939FB9D6D2497CDD0036D /* Pods_BurstChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD15A6F75A41864BB16ADD /* Pods_BurstChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDCA1BA9E76FF7096FC86B0 /* Pods-BurstChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChatUITests/Pods-BurstChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A8D8AC168B469136EC5CF71 /* Pods-BurstChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChatUITests/Pods-BurstChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5CB144651DF9D43E00AC0329 /* BurstChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurstChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB144681DF9D43E00AC0329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB1446A1DF9D43E00AC0329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,15 @@
 		5CB144871DF9D43E00AC0329 /* BurstChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurstChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB1448B1DF9D43E00AC0329 /* BurstChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstChatUITests.swift; sourceTree = "<group>"; };
 		5CB1448D1DF9D43E00AC0329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB1449B1DFAF6D000AC0329 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CB1449D1DFB06A800AC0329 /* BurstChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BurstChat.entitlements; sourceTree = "<group>"; };
+		7973CBAAF2A09BECEBA48755 /* Pods-BurstChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChatTests/Pods-BurstChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		80A7D6374DBCE880ED56B833 /* Pods_BurstChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurstChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886854AB8DD38D929DFE002A /* Pods-BurstChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChatTests/Pods-BurstChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB4991AD01DBA59863E79D9 /* Pods_BurstChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurstChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA924899CFC37C35CD15C41 /* Pods-BurstChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChat/Pods-BurstChat.release.xcconfig"; sourceTree = "<group>"; };
+		B2CECE3011B8201DE890AEC9 /* Pods-BurstChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurstChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurstChat/Pods-BurstChat.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFD15A6F75A41864BB16ADD /* Pods_BurstChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurstChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8939FB9D6D2497CDD0036D /* Pods_BurstChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F031E92218B90F1FD336D65 /* Pods_BurstChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE36E400C1AEA199C5C324B /* Pods_BurstChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E39294FD14DB0E26D1EC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFFD15A6F75A41864BB16ADD /* Pods_BurstChat.framework */,
+				80A7D6374DBCE880ED56B833 /* Pods_BurstChatTests.framework */,
+				8AB4991AD01DBA59863E79D9 /* Pods_BurstChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26678948703884AA3D81ED49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2CECE3011B8201DE890AEC9 /* Pods-BurstChat.debug.xcconfig */,
+				AFA924899CFC37C35CD15C41 /* Pods-BurstChat.release.xcconfig */,
+				886854AB8DD38D929DFE002A /* Pods-BurstChatTests.debug.xcconfig */,
+				7973CBAAF2A09BECEBA48755 /* Pods-BurstChatTests.release.xcconfig */,
+				0DDCA1BA9E76FF7096FC86B0 /* Pods-BurstChatUITests.debug.xcconfig */,
+				2A8D8AC168B469136EC5CF71 /* Pods-BurstChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5CB1445C1DF9D43E00AC0329 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				5CB1447F1DF9D43E00AC0329 /* BurstChatTests */,
 				5CB1448A1DF9D43E00AC0329 /* BurstChatUITests */,
 				5CB144661DF9D43E00AC0329 /* Products */,
+				26678948703884AA3D81ED49 /* Pods */,
+				24E39294FD14DB0E26D1EC76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,8 @@
 		5CB144671DF9D43E00AC0329 /* BurstChat */ = {
 			isa = PBXGroup;
 			children = (
+				5CB1449D1DFB06A800AC0329 /* BurstChat.entitlements */,
+				5CB1449B1DFAF6D000AC0329 /* GoogleService-Info.plist */,
 				5CB144681DF9D43E00AC0329 /* AppDelegate.swift */,
 				5CB1446A1DF9D43E00AC0329 /* ViewController.swift */,
 				5CB1446C1DF9D43E00AC0329 /* Main.storyboard */,
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB144901DF9D43E00AC0329 /* Build configuration list for PBXNativeTarget "BurstChat" */;
 			buildPhases = (
+				FF59423C6206573DEFBD7103 /* [CP] Check Pods Manifest.lock */,
 				5CB144611DF9D43E00AC0329 /* Sources */,
 				5CB144621DF9D43E00AC0329 /* Frameworks */,
 				5CB144631DF9D43E00AC0329 /* Resources */,
+				7035037408933B87CBF41EBF /* [CP] Embed Pods Frameworks */,
+				12734E90AEAE10787FAE9C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB144931DF9D43E00AC0329 /* Build configuration list for PBXNativeTarget "BurstChatTests" */;
 			buildPhases = (
+				3DB08A17E68BEA322DCC2226 /* [CP] Check Pods Manifest.lock */,
 				5CB144781DF9D43E00AC0329 /* Sources */,
 				5CB144791DF9D43E00AC0329 /* Frameworks */,
 				5CB1447A1DF9D43E00AC0329 /* Resources */,
+				AC9F8756428B691120674522 /* [CP] Embed Pods Frameworks */,
+				9AA955DC8E02AEFA6CECBC92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB144961DF9D43E00AC0329 /* Build configuration list for PBXNativeTarget "BurstChatUITests" */;
 			buildPhases = (
+				BBA136865FE0B42AC47EFB50 /* [CP] Check Pods Manifest.lock */,
 				5CB144831DF9D43E00AC0329 /* Sources */,
 				5CB144841DF9D43E00AC0329 /* Frameworks */,
 				5CB144851DF9D43E00AC0329 /* Resources */,
+				C0B07513E7137615B8A06F2A /* [CP] Embed Pods Frameworks */,
+				172ECDF857262C0CDED9577D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +252,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9V5H44T26U;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					5CB1447B1DF9D43E00AC0329 = {
 						CreatedOnToolsVersion = 8.1;
@@ -239,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB144761DF9D43E00AC0329 /* LaunchScreen.storyboard in Resources */,
+				5CB1449C1DFAF6D000AC0329 /* GoogleService-Info.plist in Resources */,
 				5CB144731DF9D43E00AC0329 /* Assets.xcassets in Resources */,
 				5CB1446E1DF9D43E00AC0329 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12734E90AEAE10787FAE9C0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChat/Pods-BurstChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		172ECDF857262C0CDED9577D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChatUITests/Pods-BurstChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB08A17E68BEA322DCC2226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7035037408933B87CBF41EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChat/Pods-BurstChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA955DC8E02AEFA6CECBC92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChatTests/Pods-BurstChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9F8756428B691120674522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChatTests/Pods-BurstChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA136865FE0B42AC47EFB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B07513E7137615B8A06F2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurstChatUITests/Pods-BurstChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF59423C6206573DEFBD7103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CB144611DF9D43E00AC0329 /* Sources */ = {
@@ -415,8 +613,10 @@
 		};
 		5CB144911DF9D43E00AC0329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CECE3011B8201DE890AEC9 /* Pods-BurstChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BurstChat/BurstChat.entitlements;
 				DEVELOPMENT_TEAM = 9V5H44T26U;
 				INFOPLIST_FILE = BurstChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,8 +628,10 @@
 		};
 		5CB144921DF9D43E00AC0329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA924899CFC37C35CD15C41 /* Pods-BurstChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BurstChat/BurstChat.entitlements;
 				DEVELOPMENT_TEAM = 9V5H44T26U;
 				INFOPLIST_FILE = BurstChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -441,6 +643,7 @@
 		};
 		5CB144941DF9D43E00AC0329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886854AB8DD38D929DFE002A /* Pods-BurstChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +659,7 @@
 		};
 		5CB144951DF9D43E00AC0329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7973CBAAF2A09BECEBA48755 /* Pods-BurstChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +675,7 @@
 		};
 		5CB144971DF9D43E00AC0329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDCA1BA9E76FF7096FC86B0 /* Pods-BurstChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9V5H44T26U;
@@ -485,6 +690,7 @@
 		};
 		5CB144981DF9D43E00AC0329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8D8AC168B469136EC5CF71 /* Pods-BurstChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9V5H44T26U;
@@ -516,6 +722,7 @@
 				5CB144921DF9D43E00AC0329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB144931DF9D43E00AC0329 /* Build configuration list for PBXNativeTarget "BurstChatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +731,7 @@
 				5CB144951DF9D43E00AC0329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB144961DF9D43E00AC0329 /* Build configuration list for PBXNativeTarget "BurstChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +740,7 @@
 				5CB144981DF9D43E00AC0329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

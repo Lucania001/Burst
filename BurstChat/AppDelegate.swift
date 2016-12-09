@@ -8,16 +8,65 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
+    
+    override init() {
+        super.init()
+        FIRApp.configure()
+        // not really needed unless you really need it FIRDatabase.database().persistenceEnabled = true
+    }
 
+    
+    @available(iOS 9.0, *)
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+        -> Bool {
+            return GIDSignIn.sharedInstance().handle(url,
+                                                        sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                                        annotation: [:])
+    }
+
+
+func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+    return GIDSignIn.sharedInstance().handle(url,
+                                                sourceApplication: sourceApplication,
+                                                annotation: annotation)
+}
+
+func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
+    if let error = error {
+        // ...
+        return
+    }
+    
+    let authentication = user.authentication
+    let credential = FIRGoogleAuthProvider.credential(withIDToken: (authentication?.idToken)!,
+                                                      accessToken: (authentication?.accessToken)!)
+    // ...
+}
+
+func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
+            withError error: NSError!) {
+    // Perform any operations when the user disconnects from app here.
+    // ...
+}
+
+   
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //FIRApp.configure()
+        
+        GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
+        GIDSignIn.sharedInstance().delegate = self
+        
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
